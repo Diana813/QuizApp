@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="ok">OK</string>
+    <string name="start">Let\'s Start!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Batman">Batman</string>
+    <string name="Superman">Superman</string>
+    <string name="Spider">Spiderman</string>
+    <string name="Captain">Captain America</string>
+    <string name="Check">Check your points</string>
+    <string name="YourName">What\'s your name?</string>
+    <string name="Enjoy">Enjoy the Quiz</string>
+    <string name="name">First name and last name</string>
+    <string name="youhave">You have</string>
+    <string name="zero">0</string>
+    <string name="points">points!</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="great">Super!</string>
+    <string name="Great">Great!</string>
+    <string name="nie">No…</string>
+    <string name="woohoo">Wooohooo!</string>
+    <string name="itIsNot">It isn\'t.</string>
+    <string name="ofCourse">Of course!</string>
+    <string name="wrong">Wrong answer…</string>
+    <string name="youAreRight">You are right!</string>
+    <string name="not">Not really…</string>
+    <string name="right">That\'s right!</string>
+    <string name="amazing">Amazing!</string>
+    <string name="tryAgain">Try again</string>
+    <string name="unfortunately">Unfortunately no…</string>
+    <string name="Question1">1. Does the liver control the cholesterol level in your body?</string>
+    <string name="Question2">2. Does Mars have two moons?</string>
+    <string name="Question3">3. Is light both a particle and a wave?</string>
+    <string name="Question4">4. Was Atremida the goddess of hunting?</string>
+    <string name="Question5">5. Is there 14 peaks higher than eight thousand meters in the world?</string>
+    <string name="Question6">6. Does the expression E = mc2 belong to the Special Theory of Relativity?</string>
+    <string name="Question7">7. Is Pluto a dwarf planet?</string>
+    <string name="Question8">8. Do vegans eat honey?</string>
+    <string name="Question21">9. Bob Kane is not the author of:</string>
+    <string name="Question22">10. Who is the president of the USA?</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/activity_main2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EFEBE9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question1" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/correct1"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/no"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question2" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/correct2"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/no2"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question3" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/correct3"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/no3"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question4" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/correct4"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/no4"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question5" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/correct5"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/no5"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question6" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/yes6"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/correct6"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question7" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/correct7"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/no7"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question8" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <include
+                    android:id="@+id/yes8"
+                    layout="@layout/yes_layout" />
+
+                <include
+                    android:id="@+id/correct8"
+                    layout="@layout/no_layout" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/textView"
+                android:text="@string/Question21" />
+
+            <CheckBox
+                android:id="@+id/one"
+                style="@style/CheckBox"
+                android:onClick="check"
+                android:text="@string/Batman"
+                tools:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/two"
+                style="@style/CheckBox"
+                android:onClick="check"
+                android:text="@string/Superman"
+                tools:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/three"
+                style="@style/CheckBox"
+                android:onClick="check"
+                android:text="@string/Spider"
+                tools:ignore="RtlSymmetry" />
+
+            <CheckBox
+                android:id="@+id/four"
+                style="@style/CheckBox"
+                android:onClick="check"
+                android:text="@string/Captain"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+
+                style="@style/textView"
+                android:text="@string/Question22" />
+
+            <EditText
+                android:id="@+id/name"
+                android:hint="@string/name"
+                android:inputType="textCapWords"
+                style="@style/textView" />
+
+            <Button
+                android:id="@+id/okk"
+                style="@style/textView"
+                android:onClick="ok1"
+                android:text="@string/ok"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:onClick="finish"
+                android:text="@string/Check"
+                android:textColor="#FFF"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
